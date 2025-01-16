@@ -83,3 +83,22 @@ img {
   margin-top: 40px;
   font-size: 1.5rem;
 }
+
+@media (max-width: 700px) {
+  .grid-portfolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .titulo {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .imagem {
+    max-width: 200px;
+    margin-left: 20px;
+  }
+
+}
