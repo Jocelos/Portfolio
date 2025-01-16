@@ -86,9 +86,7 @@ img {
 
 @media (max-width: 700px) {
   .grid-portfolio {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
+    display: inline;
   }
 
   .titulo {
@@ -97,8 +95,8 @@ img {
   }
 
   .imagem {
-    max-width: 200px;
+    max-width: 300px;
     margin-left: 20px;
+    margin-bottom: 40px;
   }
-
 }
